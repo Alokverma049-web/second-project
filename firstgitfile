@@ -1,0 +1,10 @@
+import random
+
+# List of colors
+colors = ["Red", "Blue", "Green", "Yellow", "Purple", "Cyan", "Magenta"]
+
+# Pick a random color
+color = random.choice(colors)
+
+# Print a colorful greeting
+print(f"Hello, World! Today’s lucky color is {color} 🌈")
